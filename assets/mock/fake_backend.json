@@ -1,0 +1,20 @@
+{
+  "wallet": {"balanceKobo": 500000, "ownerName": "Ada Okafor"},
+  "transactions": [
+    {"id":"seed-01","title":"Salary","counterparty":"NovaWorks","amountKobo":2500000,"date":"2026-08-24T09:00:00.000Z","category":"data"},
+    {"id":"seed-02","title":"Transfer","counterparty":"Emeka O.","amountKobo":-125000,"date":"2026-08-23T15:30:00.000Z","category":"transfer"},
+    {"id":"seed-03","title":"NovaSave","counterparty":"Emergency Fund","amountKobo":-50000,"date":"2026-08-22T12:00:00.000Z","category":"savings"},
+    {"id":"seed-04","title":"Airtime","counterparty":"MTN","amountKobo":-20000,"date":"2026-08-21T17:00:00.000Z","category":"airtime"},
+    {"id":"seed-05","title":"Data bundle","counterparty":"Airtel","amountKobo":-15000,"date":"2026-08-20T11:00:00.000Z","category":"data"},
+    {"id":"seed-06","title":"Transfer","counterparty":"Chiamaka N.","amountKobo":-80000,"date":"2026-08-19T09:00:00.000Z","category":"transfer"},
+    {"id":"seed-07","title":"NovaSave","counterparty":"Emergency Fund","amountKobo":-25000,"date":"2026-08-18T08:00:00.000Z","category":"savings"},
+    {"id":"seed-08","title":"Transfer received","counterparty":"Tunde A.","amountKobo":350000,"date":"2026-08-17T16:00:00.000Z","category":"transfer"},
+    {"id":"seed-09","title":"Airtime","counterparty":"Glo","amountKobo":-10000,"date":"2026-08-16T10:00:00.000Z","category":"airtime"},
+    {"id":"seed-10","title":"Data bundle","counterparty":"9mobile","amountKobo":-12000,"date":"2026-08-15T14:00:00.000Z","category":"data"},
+    {"id":"seed-11","title":"Transfer","counterparty":"Kemi B.","amountKobo":-60000,"date":"2026-08-14T12:00:00.000Z","category":"transfer"},
+    {"id":"seed-12","title":"NovaSave","counterparty":"Emergency Fund","amountKobo":-40000,"date":"2026-08-13T09:00:00.000Z","category":"savings"}
+  ],
+  "goals": [
+    {"id": "emergency-fund", "name": "Emergency Fund", "targetKobo": 1000000, "currentKobo": 250000, "targetDate": "2026-12-31T00:00:00.000Z"}
+  ]
+}

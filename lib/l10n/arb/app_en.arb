@@ -1,0 +1,232 @@
+{
+    "@@locale": "en",
+    "appTitle": "NovaWallet",
+    "@appTitle": {
+        "description": "Application title"
+    },
+    "walletHomeTitle": "NovaWallet",
+    "@walletHomeTitle": {
+        "description": "AppBar title on the wallet home screen"
+    },
+    "sendMoneyTitle": "Send Money",
+    "@sendMoneyTitle": {
+        "description": "AppBar title on the send money screen"
+    },
+    "novaSaveTitle": "NovaSave",
+    "@novaSaveTitle": {
+        "description": "AppBar title on the NovaSave screen"
+    },
+    "sendButton": "Send",
+    "@sendButton": {
+        "description": "Label for the send button"
+    },
+    "contributeButton": "Contribute",
+    "@contributeButton": {
+        "description": "Label for the contribute button"
+    },
+    "transferSuccess": "Transfer successful",
+    "@transferSuccess": {
+        "description": "Headline on the online send-money success screen"
+    },
+    "contributionQueued": "Contribution queued — will sync when online",
+    "@contributionQueued": {
+        "description": "Message shown when contribution is queued"
+    },
+    "amountFieldLabel": "Amount (₦)",
+    "@amountFieldLabel": {
+        "description": "Label for the amount input field"
+    },
+    "recipientFieldLabel": "Recipient ID",
+    "@recipientFieldLabel": {
+        "description": "Label for the recipient ID input field"
+    },
+    "contributionFieldLabel": "Contribute (kobo)",
+    "@contributionFieldLabel": {
+        "description": "Label for the contribution amount input field"
+    },
+    "walletBalanceLabel": "Wallet balance",
+    "@walletBalanceLabel": {
+        "description": "Semantics label for the wallet balance display"
+    },
+    "savingsProgressLabel": "Savings progress",
+    "@savingsProgressLabel": {
+        "description": "Semantics label for the savings progress indicator"
+    },
+    "sendMoneyButtonLabel": "Send money",
+    "@sendMoneyButtonLabel": {
+        "description": "Semantics label for the send money navigation button"
+    },
+    "novaSaveButtonLabel": "NovaSave",
+    "@novaSaveButtonLabel": {
+        "description": "Semantics label for the NovaSave navigation button"
+    },
+    "continueButton": "Continue",
+    "@continueButton": {
+        "description": "Label for the continue/next button in multi-step flows"
+    },
+    "sendMoneyRecipientHint": "Who are you sending to?",
+    "@sendMoneyRecipientHint": {
+        "description": "Subtitle on step 1 of the send money flow"
+    },
+    "confirmTransferTitle": "Confirm Transfer",
+    "@confirmTransferTitle": {
+        "description": "AppBar title on the send money confirmation step"
+    },
+    "emergencyFundTitle": "Emergency Fund",
+    "@emergencyFundTitle": {
+        "description": "Name of the hardcoded savings goal"
+    },
+    "sendMoneyCtaButton": "Send Money",
+    "@sendMoneyCtaButton": {
+        "description": "Label for the final send CTA button on the confirmation step"
+    },
+    "goodMorning": "Good morning",
+    "profileFor": "Profile for {name}",
+    "@profileFor": {"placeholders": {"name": {}}},
+    "availableBalance": "Available balance",
+    "accountNumberMasked": "Account ···· 6789",
+    "copyAccountNumber": "Copy account number",
+    "accountNumberCopied": "Account number copied",
+    "recentTransactions": "Recent activity",
+    "transfer": "Transfer",
+    "transferReceived": "Transfer received",
+    "airtime": "Airtime",
+    "dataBundle": "Data bundle",
+    "walletLoadFailed": "We couldn't load your wallet",
+    "walletLoadFailedBody": "Check your connection and try again.",
+    "tryAgain": "Try again",
+    "noTransactions": "Your activity will appear here",
+    "noTransactionsBody": "Make your first transfer to see it in your wallet history.",
+    "nextStep": "Next step",
+    "sendTo": "To: {recipient}",
+    "@sendTo": {"placeholders": {"recipient": {}}},
+    "availableAmount": "Available: {amount}",
+    "@availableAmount": {"placeholders": {"amount": {}}},
+    "invalidSendAmount": "Enter an amount within your available balance.",
+    "recipientSummary": "Recipient",
+    "goalLabel": "Goal",
+    "amountSummary": "Amount",
+    "feeSummary": "Fee",
+    "freeFee": "₦0.00",
+    "goalTarget": "Target: {amount}",
+    "@goalTarget": {"placeholders": {"amount": {}}},
+    "goalOf": "of {amount} goal",
+    "@goalOf": {"placeholders": {"amount": {}}},
+    "contributionAmount": "Contribution amount",
+    "contributeToGoal": "Contribute to goal",
+    "invalidContribution": "Enter an amount within your remaining goal balance.",
+    "contributeAmount": "Contribute {amount}",
+    "@contributeAmount": {"placeholders": {"amount": {}}},
+
+    "selectBankTitle": "Select Bank",
+    "@selectBankTitle": {"description": "Title for bank selection step"},
+    "selectBankHint": "Which bank are you sending to?",
+    "@selectBankHint": {"description": "Subtitle on bank selection step"},
+    "searchBankHint": "Search banks",
+    "@searchBankHint": {"description": "Placeholder for bank search field"},
+    "accountNumberLabel": "Account Number",
+    "@accountNumberLabel": {"description": "Label for account number input"},
+    "accountNumberHint": "Enter 10-digit account number",
+    "@accountNumberHint": {"description": "Hint text for account number field"},
+    "lookingUpAccount": "Looking up account…",
+    "@lookingUpAccount": {"description": "Shown while resolving account name"},
+    "accountLookupFailed": "Account not found. Check the number and try again.",
+    "@accountLookupFailed": {"description": "Error when account lookup fails"},
+    "accountNameLabel": "Account Name",
+    "@accountNameLabel": {"description": "Label for resolved account name"},
+    "bankSummary": "Bank",
+    "@bankSummary": {"description": "Summary row label for bank"},
+    "accountSummary": "Account",
+    "@accountSummary": {"description": "Summary row label for account number"},
+    "nameSummary": "Name",
+    "@nameSummary": {"description": "Summary row label for account holder name"},
+
+    "enterPinTitle": "Enter PIN",
+    "@enterPinTitle": {"description": "Title for PIN entry screen"},
+    "enterPinSubtitle": "Enter your 4-digit PIN to authorize",
+    "@enterPinSubtitle": {"description": "Subtitle on PIN entry screen"},
+    "wrongPin": "Wrong PIN. {remaining} attempt(s) left.",
+    "@wrongPin": {"placeholders": {"remaining": {}}},
+    "pinLocked": "Too many wrong attempts. Try again later.",
+    "@pinLocked": {"description": "Shown when PIN attempts exhausted"},
+
+    "offlineSavedTitle": "Transaction Saved",
+    "@offlineSavedTitle": {"description": "Title on offline success screen"},
+    "offlineSavedBody": "This transaction was saved locally and will sync automatically when you're back online.",
+    "@offlineSavedBody": {"description": "Body on offline success screen"},
+    "backToHome": "Back to Home",
+    "@backToHome": {"description": "Button to go back to home"},
+    "offlineBanner": "No internet · Transactions will sync automatically",
+    "@offlineBanner": {"description": "Persistent offline connectivity banner text"},
+
+    "savingsCategoryEmergency": "Emergency",
+    "@savingsCategoryEmergency": {"description": "Emergency savings category"},
+    "savingsCategoryTarget": "Target",
+    "@savingsCategoryTarget": {"description": "Target savings category"},
+    "savingsCategoryFixed": "Fixed",
+    "@savingsCategoryFixed": {"description": "Fixed savings category"},
+    "savingsCategoryEmergencyDesc": "Safety net for unexpected expenses",
+    "@savingsCategoryEmergencyDesc": {"description": "Description for emergency savings"},
+    "savingsCategoryTargetDesc": "Save towards a specific goal",
+    "@savingsCategoryTargetDesc": {"description": "Description for target savings"},
+    "savingsCategoryFixedDesc": "Lock funds for a fixed period",
+    "@savingsCategoryFixedDesc": {"description": "Description for fixed savings"},
+    "createSavingsTitle": "New Savings Plan",
+    "@createSavingsTitle": {"description": "Title for savings creation flow"},
+    "selectCategoryHint": "What are you saving for?",
+    "@selectCategoryHint": {"description": "Subtitle on category selection step"},
+    "selectDurationTitle": "Duration & Frequency",
+    "@selectDurationTitle": {"description": "Title for duration/frequency step"},
+    "durationLabel": "Duration (months)",
+    "@durationLabel": {"description": "Label for duration field"},
+    "frequencyLabel": "Frequency",
+    "@frequencyLabel": {"description": "Label for frequency selection"},
+    "frequencyDaily": "Daily",
+    "frequencyWeekly": "Weekly",
+    "frequencyMonthly": "Monthly",
+    "targetAmountLabel": "Target Amount",
+    "@targetAmountLabel": {"description": "Label for total savings target amount"},
+    "amountPerPeriodLabel": "Amount per period",
+    "@amountPerPeriodLabel": {"description": "Label for amount saved each period"},
+    "savingsPlanName": "Savings plan name",
+    "@savingsPlanName": {"description": "Label for naming the savings plan"},
+    "confirmSavingsTitle": "Confirm Plan",
+    "@confirmSavingsTitle": {"description": "Title for savings confirmation step"},
+    "savingsCreatedSuccess": "Savings plan created",
+    "@savingsCreatedSuccess": {"description": "Success message after savings creation"},
+    "newSavingsPlan": "New Plan",
+    "@newSavingsPlan": {"description": "Button to create a new savings plan"},
+    "noSavingsPlans": "No savings plans yet",
+    "@noSavingsPlans": {"description": "Empty state title for savings list"},
+    "noSavingsPlansBody": "Start saving towards your goals today",
+    "@noSavingsPlansBody": {"description": "Empty state body for savings list"},
+    "savingsDetailTitle": "Savings Detail",
+    "@savingsDetailTitle": {"description": "Title for savings detail screen"},
+    "pendingBadge": "Pending",
+    "@pendingBadge": {"description": "Badge shown on pending transactions"},
+    "months": "{count} months",
+    "@months": {"placeholders": {"count": {}}},
+    "categoryLabel": "Category",
+    "@categoryLabel": {"description": "Label for savings category in confirmation"},
+    "durationSummary": "Duration",
+    "@durationSummary": {"description": "Label for duration in confirmation"},
+    "frequencySummary": "Frequency",
+    "@frequencySummary": {"description": "Label for frequency in confirmation"},
+    "invalidSavingsAmount": "Enter a valid amount greater than zero.",
+    "@invalidSavingsAmount": {"description": "Error for invalid savings amount"},
+    "invalidDuration": "Enter a duration between 1 and 60 months.",
+    "@invalidDuration": {"description": "Error for invalid duration"},
+    "authorizeButton": "Authorize",
+    "@authorizeButton": {"description": "Button to proceed to PIN authorization"},
+
+    "topUpButton": "Top Up",
+    "@topUpButton": {"description": "Label for the top up button"},
+    "topUpButtonLabel": "Top up wallet",
+    "@topUpButtonLabel": {"description": "Semantics label for the top up navigation button"},
+    "topUpTitle": "Add Funds",
+    "@topUpTitle": {"description": "AppBar title on the top up screen"},
+    "topUpSuccessTitle": "Top-up Successful",
+    "@topUpSuccessTitle": {"description": "Headline on the top up success screen"},
+    "invalidTopUpAmount": "Enter an amount greater than zero.",
+    "@invalidTopUpAmount": {"description": "Error when top up amount is invalid"}
+}

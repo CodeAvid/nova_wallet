@@ -1,0 +1,5 @@
+{
+  "wallet": {"balanceKobo": 500000, "ownerName": "Test Wallet"},
+  "transactions": [],
+  "goals": [{"id": "test-goal", "name": "Test Goal", "targetKobo": 100000, "currentKobo": 0, "targetDate": "2026-12-31T00:00:00.000Z"}]
+}
